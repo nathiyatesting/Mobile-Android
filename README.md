@@ -38,7 +38,7 @@ How to execute the Test case
            •  For the Logging and Debugging purpose, I have implemented the Log4J Framework.
               All the log information from the test case execution will be captured using the Log4J.
 
-           •  The log4j2.xml is located in the properties folder
+           •  The log4j2.xml is located in the properties folder. Place the log4j2.xml file into the classpath. Only then all the log statements will get logged to console.
 
 MacOS Setup/Consideration:
 
