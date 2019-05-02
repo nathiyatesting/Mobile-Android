@@ -75,17 +75,3 @@ Below are the list of things that differ from Android and IOS
               3. Scrolling 
                     Scrolling in ios can be done by using the Dimension class.
                     
-Technology Stack used for the Score APP:
-
-                 The Score App is a Native App. I have created a zip File out of the .APK File and 
-                 inspected the extracted file. Based on my understanding, the below technology stack has been used 
-                   Front-end:
-                     • Kotlin
-                     • Java script
-                     • HTML/CSS
-                   Back-end:
-                     • Google Firebase
-   Kotlin:	
-          Kotlin is a an open source programming language for android Development that combines the object oriented programming.
-
-
