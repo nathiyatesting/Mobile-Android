@@ -26,7 +26,7 @@ TestNG
 How to execute the Test case
          
           •	 Open the RandomPlayer_TC001 Test case file from the src/test/java .Right Click and
-             choose the option TestNG Test to execute the Test case Test Data& APK File
+             choose the option TestNG Test to execute the Test case
           •	 Test data is maintained in a separate excel spreadsheet as the test data
              is parameterized in the Test case
 
