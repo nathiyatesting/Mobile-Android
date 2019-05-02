@@ -52,7 +52,6 @@ public class SigninPage extends BasePage {
 		addExplicitWait(gotitpopup, driver);
 		if (gotitpopup.getText().contains("Got it"))
 			gotitpopup.click();
-		// Thread.sleep(3000);
 	}
 
 }
