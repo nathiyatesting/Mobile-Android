@@ -23,7 +23,7 @@ public class WelcomePage extends BasePage {
 			.getLogger(WelcomePage.class.getName());
 
 
-		@AndroidFindBy(xpath = "//android.widget.TextView[@text='HAVE AN ACCOUNT? SIGN IN']")
+        @AndroidFindBy(xpath = "//android.widget.TextView[@text='HAVE AN ACCOUNT? SIGN IN']")
 	public static MobileElement pointsForSignIn;
 
 	public WelcomePage(AppiumDriver driver) {
@@ -34,17 +34,12 @@ public class WelcomePage extends BasePage {
 
 	public void clickSigninLink() {
 		log.info("Inside clickSigninLink Method");
-				int y = pointsForSignIn.getCenter().getY();
-		//int y=signInElement.getSize().getHeight();
+	        int y = pointsForSignIn.getCenter().getY();
 		int x1=pointsForSignIn.getCenter().getX();
 		Dimension size=driver.manage().window().getSize();
-		//int d1=d.getHeight();
 		int d2=size.getWidth();
-        int x=(d2+x1)/2;
-      //  System.out.println("tota. "+z);
-	
+                int x=(d2+x1)/2; 	
 		tapByCoordinates(touchAction, x, y);
-		//Point.
 	}
 
 }
