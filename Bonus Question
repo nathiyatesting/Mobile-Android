@@ -19,5 +19,5 @@ Rest-API : It acts as a midlle layer between the Presentation layer and back-end
 on the Presentation layer in turn calls the Service layer that is the Rest API where the actual logic lies.which 
 in turn calls the back end layer.It fetches the information from the Back end and presents it to the user. 
 
-According to my understanding theScore app follows a 3-tier architecture.
+
    
